@@ -1,0 +1,10 @@
+version: 2
+authtoken: 2fp8mhoygKsthba3BRhKy9ffuZ4_7ALSrrKUmiMmU3KkcVaaX
+tunnels:
+  first:
+    addr: host.docker.internal:3000
+    proto: http   
+    domain: immortal-aphid-legal.ngrok-free.app
+  second:
+    addr: host.docker.internal:8000
+    proto: http
