@@ -12,9 +12,9 @@ const logout = async () => {
   <div>
     <div class="flex items-center md:justify-between justify-center">
       <div class="flex items-center">
-        <UButton v-if="user" class="u-text-white" variant="transparent" @click="logout">
+        <Button v-if="user" class="u-text-white" variant="transparent" @click="logout">
           Logout
-        </UButton>
+        </Button>
       </div>
     </div>
   </div>
